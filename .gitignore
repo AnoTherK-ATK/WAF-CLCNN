@@ -1,3 +1,5 @@
 *.h5
 saved_model/*.h5
 wandb/*
+logs/*
+.idea/*
