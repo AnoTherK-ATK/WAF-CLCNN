@@ -43,7 +43,7 @@ url = "http://localhost:8080/"
 tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
 @app.route('/<regex(".*"):path>', methods=["GET", "HEAD", "POST", "PUT", "DELETE", "CONNECT", "OPTIONS", "TRACE", "PATCH"])
 def post(path):
-    # Extract URL query
+    # Extract URL query 
     query = request.query_string
     if query != b'':
         path += "?" + query.decode()
