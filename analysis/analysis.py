@@ -6,10 +6,10 @@ st.markdown('# WAffle Dashboard')
 
 
 df_block = pd.read_csv('block.csv')
-st.markdown('## 遮断した通信')
+st.markdown('## Traffics blocked')
 st.write(df_block)
 
 
 df_through = pd.read_csv('through.csv')
-st.markdown('## 許可した通信')
+st.markdown('## Traffics through')
 st.write(df_through)

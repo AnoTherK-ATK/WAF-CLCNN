@@ -20,7 +20,7 @@ try {
 <body>
     <form method="GET">
         name <input type="text" name="input" size="50" id="input"><br>
-        <input type="button" onclick="document.getElementById('input').value = '\'or 1=1\;--';" value="attack"><input type="submit" value="送信">
+        <input type="button" onclick="document.getElementById('input').value = '\'or 1=1\;--';" value="attack"><input type="submit" value="Send">
     </form>
     <hr>
     <?

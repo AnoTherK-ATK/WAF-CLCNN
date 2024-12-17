@@ -12,7 +12,7 @@ from flask import (Flask, Response, make_response, render_template,
 from werkzeug.routing import BaseConverter
 import numpy as np
 import torch
-import numpy as np
+
 from urllib.parse import unquote
 from transformers import DistilBertTokenizer
 
